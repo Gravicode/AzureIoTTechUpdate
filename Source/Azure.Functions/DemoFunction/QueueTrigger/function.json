@@ -1,0 +1,12 @@
+﻿{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "tweets",
+      "connection": "funcstorage001_STORAGE"
+    }
+  ],
+  "disabled": false
+}

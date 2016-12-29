@@ -1,0 +1,19 @@
+﻿{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "laporan",
+      "connection": "funcstorage001_STORAGE"
+    },
+    {
+      "type": "table",
+      "name": "outTable",
+      "tableName": "laporan",
+      "connection": "funcstorage001_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

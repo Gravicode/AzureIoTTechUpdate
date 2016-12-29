@@ -1,0 +1,1 @@
+E:\Jobs\AzureTechUpdate\Demo\Azure.Functions\SensorNode\SensorNode.csproj;x86

@@ -1,0 +1,19 @@
+﻿{
+  "bindings": [
+    {
+      "type": "blobTrigger",
+      "name": "image",
+      "path": "photos/{name}",
+      "connection": "XX",
+      "direction": "in"
+    },
+    {
+      "type": "table",
+      "name": "outTable",
+      "tableName": "photocaption",
+      "connection": "XX",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

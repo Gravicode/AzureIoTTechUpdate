@@ -1,0 +1,33 @@
+## functional demo ##
+imageresizer -> blob : ok
+github -> webhook : ok
+postman -> http get : ok
+timer -> logs :ok
+image recognizer -> table : ok
+(flow app) sentiment tweet to que to table:ok
+
+## real case study ##
+1. IoT : Lora + Sensors -> melewati threshold -> catat di log, kirim tweet
+2. Chat Bot : Laporan kerusakan fasilitas umum + Foto -> Masuk ke Logs (table and blob) : ok
+
+auth
+debug function:pending, error on VS
+execute command line:cancel
+
+DefaultEndpointsProtocol=https;AccountName=funcstorage001;AccountKey=XTZ5CZRp6FcUSU6P3XtCaaWZ+AHLR5OUMqq8AaFbVtZWqxFcWq+1cW0gc5ZXBP/hho9lk7ThpmU+hCnZLT9qpw==
+
+STORAGE_KEY
+
+chat - lapor bot
+appid:f69eabd7-608c-437e-87dc-72c09db210b6
+pass:gTpmOz71Jy8Oh84G5epi7Oj
+
+mengenai format timer:
+{second} {minute} {hour} {day} {month} {day of the week}
+Every hour (i.e. whenever the count of minutes is 0): 0 0 * * * *
+Every hour from 9 AM to 5 PM: 0 0 9-17 * * *
+At 9:30 AM every day: 0 30 9 * * *
+At 9:30 AM every week day: 0 30 9 * * 1-5
+
+1. report web signalR untuk mantau jika ada report yang masuk :ok
+2. web dashboard dengan real-time chart 

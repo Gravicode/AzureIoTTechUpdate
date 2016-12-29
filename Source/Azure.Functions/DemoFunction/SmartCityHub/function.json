@@ -1,0 +1,20 @@
+﻿{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "myEventHubMessage",
+      "direction": "in",
+      "path": "devicehub",
+      "connection": "devicecon",
+      "consumerGroup": "$Default"
+    },
+    {
+      "type": "queue",
+      "name": "outputQueueItem",
+      "queueName": "status-ruangan",
+      "connection": "funcstorage001_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

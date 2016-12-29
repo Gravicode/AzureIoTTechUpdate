@@ -1,0 +1,1 @@
+E:\Jobs\AzureTechUpdate\Demo\Azure.Functions\CamApp\CamApp.csproj;x86

@@ -1,0 +1,24 @@
+﻿{
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "authLevel": "anonymous"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "table",
+      "name": "inTable",
+      "tableName": "person",
+      "connection": "funcstorage001_STORAGE",
+      "direction": "in",
+      "take": 50
+    }
+  ],
+  "disabled": false
+}
